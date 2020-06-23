@@ -3,8 +3,10 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    "ssssssssss" + string
-
+    counter = 1
+    until counter == 10
+    string = "s" + string
+    counter = counter + 1
 
   else
     string
