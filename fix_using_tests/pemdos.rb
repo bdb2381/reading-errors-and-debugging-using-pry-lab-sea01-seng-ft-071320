@@ -6,8 +6,8 @@ def snake_it_up(string)
     loop do
       "s" + string
 
-      counter = 1
-      if counter == 10
+      counter = '1'
+      if counter == '10'
         break
       end 
     end  #end the  loop
