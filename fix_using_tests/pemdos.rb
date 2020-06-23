@@ -9,7 +9,7 @@ def snake_it_up(string)
       counter = counter + 1
 
     end
-    binding.pry
+    
   else
     string
   end
