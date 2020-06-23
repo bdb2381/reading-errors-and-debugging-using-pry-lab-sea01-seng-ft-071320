@@ -2,7 +2,8 @@
 require 'pry'
 
 def start_game(player1, player2)
-  "Hello #{player1} & #{player2}"
+  greeting = "Hello #{player1} & #{player2}"
+  greeting
 end
 
 def play_game(player2)
@@ -12,3 +13,4 @@ def play_game(player2)
 end
 
 start_game("Rocky", "Bullwinkle")
+player1()
