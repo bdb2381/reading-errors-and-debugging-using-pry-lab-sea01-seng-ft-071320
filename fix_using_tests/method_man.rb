@@ -8,8 +8,6 @@ end
 
 def play_game(player1, player2)
   winner = "#{player1} is better than #{player2}"
-  #binding.pry
-  #puts "Hello"
   winner
 end
 
