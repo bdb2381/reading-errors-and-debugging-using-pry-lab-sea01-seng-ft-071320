@@ -3,14 +3,8 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    loop do
-      string = "s" + string
+    "ssssssssss" + string
 
-      counter = '1'
-      if counter == '10'
-        break
-      end
-    end  #end the  loop
 
   else
     string
