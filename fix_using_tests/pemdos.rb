@@ -7,6 +7,7 @@ def snake_it_up(string)
       until counter == 10
       string = "s" + string
       counter = counter + 1
+      binding.pry
     end
   else
     string
