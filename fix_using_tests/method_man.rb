@@ -6,11 +6,11 @@ def start_game(player1, player2)
   greeting
 end
 
-def play_game(player2)
+def play_game(player1, player2)
   "#{player1} is better than #{player2}"
   binding.pry
   puts "Hello"
 end
 
 start_game("Rocky", "Bullwinkle")
-#player1()
+play_game("Jay-Z", "Beyonce")
