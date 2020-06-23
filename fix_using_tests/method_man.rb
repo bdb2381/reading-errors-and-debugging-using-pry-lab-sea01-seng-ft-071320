@@ -12,3 +12,5 @@ def play_game(player2)
   binding.pry
   puts "Hello"
 end
+
+start_game("Rocky", "Bullwinkle")
