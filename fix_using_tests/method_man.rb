@@ -13,4 +13,4 @@ def play_game(player2)
 end
 
 start_game("Rocky", "Bullwinkle")
-player1()
+#player1()
