@@ -7,9 +7,10 @@ def start_game(player1, player2)
 end
 
 def play_game(player1, player2)
-  "#{player1} is better than #{player2}"
-  binding.pry
-  puts "Hello"
+  winner = "#{player1} is better than #{player2}"
+  #binding.pry
+  #puts "Hello"
+  winner
 end
 
 start_game("Rocky", "Bullwinkle")
