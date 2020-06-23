@@ -9,7 +9,7 @@ def snake_it_up(string)
       counter = '1'
       if counter == '10'
         break
-      end 
+      end
     end  #end the  loop
   else
     string
